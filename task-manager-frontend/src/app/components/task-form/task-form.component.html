@@ -1,0 +1,11 @@
+<h2>Add Task</h2>
+<form (ngSubmit)="addTask()">
+  <input type="text" placeholder="Task Name" [(ngModel)]="task.name" name="name" required />
+  <input type="text" placeholder="Description" [(ngModel)]="task.description" name="description" required />
+  <input type="number" placeholder="Priority" [(ngModel)]="task.priority" name="priority" required />
+  <label>
+    Completed:
+    <input type="checkbox" [(ngModel)]="task.completed" name="completed" />
+  </label>
+  <button type="submit">Add Task</button>
+</form>

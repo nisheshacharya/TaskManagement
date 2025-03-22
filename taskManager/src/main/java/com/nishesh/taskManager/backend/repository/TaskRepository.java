@@ -1,6 +1,6 @@
-package com.nishesh.taskManager.repository;
+package com.nishesh.taskManager.backend.repository;
 
-import com.nishesh.taskManager.model.Task;
+import com.nishesh.taskManager.backend.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

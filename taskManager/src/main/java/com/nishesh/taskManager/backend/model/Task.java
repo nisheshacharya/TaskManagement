@@ -1,4 +1,4 @@
-package com.nishesh.taskManager.model;
+package com.nishesh.taskManager.backend.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,7 +1,7 @@
-package com.nishesh.taskManager.controller;
+package com.nishesh.taskManager.backend.controller;
 
-import com.nishesh.taskManager.model.Task;
-import com.nishesh.taskManager.repository.TaskRepository;
+import com.nishesh.taskManager.backend.model.Task;
+import com.nishesh.taskManager.backend.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.slf4j.Logger;
@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin()
 @RequestMapping("/task")
 public class TaskController {
 
